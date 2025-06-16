@@ -1,5 +1,8 @@
 # bot.py
 
+from background import keep_alive
+keep_alive()
+
 import logging
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from telegram.ext import (
